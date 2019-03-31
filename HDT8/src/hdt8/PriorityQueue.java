@@ -6,7 +6,7 @@
 package hdt8;
 
 /**
- *
+ *interfaz que utiliza VectorHeap extraída de canvas
  * @author maria
  */
 public interface PriorityQueue<E extends Comparable<E>> {
