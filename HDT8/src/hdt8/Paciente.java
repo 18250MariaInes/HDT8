@@ -35,6 +35,7 @@ public class Paciente implements Comparable<Paciente>{
         return prioridad.compareTo(o.prioridad);
     }
     
+    @Override
      public String toString() {
          return "Nombre: "+nombre+ "\tSintoma: " + caso + "\tPrioridad: "+prioridad;
      }

@@ -45,6 +45,7 @@ public class VectorHeap <E extends Comparable<E>> implements PriorityQueue<E> {
      *agrega paciente al vectpr
      * @param value agregadp
      */
+    @Override
     public void add(E value){
         data.add(value);
         percolateUp(data.size()-1);
@@ -134,6 +135,7 @@ public class VectorHeap <E extends Comparable<E>> implements PriorityQueue<E> {
      *
      * @return primer valor del vector
      */
+    @Override
     public E getFirst(){
         return data.firstElement();
     }
@@ -142,6 +144,7 @@ public class VectorHeap <E extends Comparable<E>> implements PriorityQueue<E> {
      *remueve un paciente del vector
      * @return
      */
+    @Override
     public E remove(){
         E minVal = getFirst();
         data.set(0,data.get(data.size()-1));
