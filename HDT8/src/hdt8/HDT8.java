@@ -45,23 +45,20 @@ public class HDT8 {
         //Guarda cada paciente en el heap
         for (int i = 0; i < list.size(); i++){
             String paci = (list.get(i));
-            System.out.print(paci + "\n");
             String[] datosPaci = paci.split(", ");
-            System.out.print(datosPaci[0]+ "\n");
-            System.out.print(datosPaci[1]+ "\n");
-            System.out.print(datosPaci[2]+ "\n");
             Paciente paciente = new Paciente(datosPaci[0],datosPaci[1],datosPaci[2]);
             heaPacientes.add(paciente);
         }
         
         //Imprime el heap ya con los pacientes ordenado segun la prioridad
-        System.out.print("\n Impresion del heap \n");
+        System.out.print("\t\tPacientes por atender\n\n");
         int size = heaPacientes.size();
         int contador =1;    
         for (int c = 0;c<size;c++){
-            System.out.println(heaPacientes.getFirst().toString());
+            System.out.println("Paciente #"+(c+1)+"    " + heaPacientes.getFirst().toString());
             heaPacientes.remove();
         }
+        System.out.print("\n");
         
       
     }

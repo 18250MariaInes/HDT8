@@ -36,7 +36,7 @@ public class Paciente implements Comparable<Paciente>{
     }
     
      public String toString() {
-         return "Nombre "+nombre+" de prioridad "+prioridad;
+         return "Nombre: "+nombre+ "\tSintoma: " + caso + "\tPrioridad: "+prioridad;
      }
     
     
