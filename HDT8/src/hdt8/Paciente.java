@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package hdt8;
+//package hdt8;
 
 /**
  * pacientes que se guardan en al VH y se compararan de acuerdo a la prioridad de su caso

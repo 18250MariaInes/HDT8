@@ -4,7 +4,7 @@
  * Este main utiliza un VectorHeap de Pacientes para leer un txt y ordenar
  * los pacientes de acuerdo a la prioridad de su caso (orden alfabetico)
  */
-package hdt8;
+//package hdt8;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
